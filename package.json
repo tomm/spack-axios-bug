@@ -1,0 +1,20 @@
+{
+  "name": "spack-axios-bug",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "license": "GPL",
+  "scripts": {
+    "build": "rm -rf ./public/js && npx spack"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "emitter": "0.0.5",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.27",
+    "@swc/core": "^1.2.38",
+    "@swc/helpers": "^0.2.2"
+  }
+}
